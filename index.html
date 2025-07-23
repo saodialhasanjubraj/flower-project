@@ -16,14 +16,14 @@
 </head>
 
 <body>
-    <div class="container max-w-285 m-auto mt-7.5">
+    <main class="container max-w-285 m-auto mt-7.5 lg:border-2 lg:p-0 px-4">
         <nav class="flex w-full items-center justify-between">
-            <img src="/assets/logo.png" alt="" class="barnd-name h-20.5 w-33.5">
+            <img src="/assets/logo.png" alt="" class="barnd-name w-15.5 h-9.5 ">
             <div class="nav-right-side flex justify-between gap-x-12">
-                <ul class="flex justify-between items-center w-63.5">
-                    <li><a href="#" class="font-Noto-Serif" style="color: #8987A1;">Home</a></li>
-                    <li><a href="#" class="font-inter" style="color: #8987A1;">Shop</a></li>
-                    <li><a href="#" style="color: #8987A1;">About us</a></li>
+                <ul class="lg:flex justify-between items-center w-63.5 hidden">
+                    <li><a href="#" class="hover:font-bold hover:text-black font-Noto-Serif">Home</a></li>
+                    <li><a href="#" class="hover:font-bold hover:text-black font-inter">Shop</a> </li>
+                    <li><a href="#" class="hover:font-bold hover:text-black ">About us</a></li>
                 </ul>
                 <div class="buy-icon">
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -31,7 +31,33 @@
                 </div>
             </div>
         </nav>
-    </div>
+        <!-- nav End here -->
+        <section class="hero-section lg:mt-30 flex lg:flex-row lg:items-center flex-col-reverse ">
+            <div class="left ">
+                <h1 class="lg:text-[65px] font-bold text-2xl">ALWAYS <span
+                        class="lg:text-[65px] lg:font-bold text-orange-500"> FRESH <br> FLOWERS</span></h1>
+                <p class="text-[22px] font-inter opacity-50">Indulge your senses with the beauty and fragrance of our
+                    fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <img class="right " src="/assets/hero-flower.png" alt="">
+        </section>
+        <section class="our-plants lg:mt-30 mt-16 flex flex-col items-center w-full">
+            <div class="heading w-full text-center">
+                <h1 class="text-orange-500 lg:text-[50px] text-2xl font-bold">Our<span class="text-black"> Plants</span></h1>
+                <p class="lg:text-[22px] lg: text-[14px] text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
+                    to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <h1></h1>
+                    <button type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
